@@ -1,0 +1,17 @@
+.footer-nav {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  min-height: 50px;
+
+  /* #E2E8ED */
+  /* #84909B */
+  background: #e2e8ed;
+  color: #84909b;
+
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 50px;
+}

@@ -17,7 +17,7 @@ const BootstrapNav = () => {
             <Nav.Link href="#policylookup">Policy Lookup</Nav.Link>
             <Nav.Link href="#contactus">Contact Us</Nav.Link>
             <Nav.Link
-              href="#login"
+              href="/login"
               className="d-flex align-items-center justify-contenr-center"
             >
               <FaUserAlt size={18} className="me-2" />
