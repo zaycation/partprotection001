@@ -43,3 +43,16 @@
     margin-top: 20px;
   }
 }
+
+.learnmore-btn {
+  width: 300px;
+  height: 60px;
+  font: Source Sans Pro;
+
+  /* #1665A2 */
+
+  background: #1665a2 !important;
+  color: white;
+  border-radius: 10px !important;
+  border-color: #1665a2 !important;
+}

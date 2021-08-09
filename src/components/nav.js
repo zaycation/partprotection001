@@ -14,8 +14,8 @@ const BootstrapNav = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="w-100 d-flex justify-content-end">
-            <Nav.Link href="#policylookup">Policy Lookup</Nav.Link>
-            <Nav.Link href="#contactus">Contact Us</Nav.Link>
+            <Nav.Link href="/policy-lookup">Policy Lookup</Nav.Link>
+            <Nav.Link href="/contact">Contact Us</Nav.Link>
             <Nav.Link
               href="/login"
               className="d-flex align-items-center justify-contenr-center"
@@ -24,7 +24,7 @@ const BootstrapNav = () => {
               Log In
             </Nav.Link>
             <Nav.Link
-              href="#phonenumber"
+              href="tel:307-699-9730"
               className="d-flex align-items-center justify-contenr-center"
             >
               <FaPhoneAlt size={18} className="me-2" />

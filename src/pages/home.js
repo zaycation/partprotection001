@@ -18,7 +18,7 @@ const home = () => {
               avoid unexpected, costly repairs on their new or pre-owned
               vehicle.
             </p>
-            <Button variant="primary" size="lg">
+            <Button variant="dark" className="learnmore-btn">
               Learn More
             </Button>
           </div>
