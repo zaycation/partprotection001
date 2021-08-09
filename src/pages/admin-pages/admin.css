@@ -16,6 +16,13 @@
   height: 100vh;
 }
 
+.left-nav-active {
+  background: #fff !important;
+  width: 100%;
+  color: black !important;
+  font-weight: 800 !important;
+}
+
 .nav-link-txt {
   /* dashboard-color-1 */
 
@@ -61,7 +68,33 @@
 }
 
 .circular-icons {
-    background: #E2E8ED;
-    padding: 5px;
-    border-radius: 50%;
+  background: #e2e8ed;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.export-btn {
+  background: #ffffff !important;
+  /* #E2E8ED */
+  color: #84909b !important;
+
+  border: 1px solid #e2e8ed !important;
+  box-sizing: border-box !important;
+  border-radius: 8px !important;
+}
+
+.pp-head {
+  /* #E2E8ED */
+
+  background: #e2e8ed;
+}
+
+.pp-body {
+  background: #fff !important;
+}
+
+.user-mgmt-btn {
+  width: 200px;
+
+  font: Source Sans Pro;
 }

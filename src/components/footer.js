@@ -11,7 +11,8 @@ const footer = () => {
       activeKey="/home"
     >
       <Nav.Item className="px-5">
-        Copyright © 2011-2021 Genuine PartProtection. All Rights Reserved
+        PartProtection® is a registered trademark with the United States
+        Trademark Office. Copyright © 2021 All Rights Reserved.
       </Nav.Item>
     </Navbar>
   );

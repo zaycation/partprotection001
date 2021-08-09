@@ -27,7 +27,7 @@ import Logo from "../../images/pp-logo.png";
 
 import "./admin.css";
 
-const policylookup = () => {
+const adminfunctions = () => {
   return (
     <Container fluid>
       <Row>
@@ -39,7 +39,7 @@ const policylookup = () => {
             <Image src={Logo} rounded width="180px" className="mt-3 mb-3" />
             <Nav.Link
               eventKey="link-0"
-              className="nav-link-txt left-nav-active"
+              className="nav-link-txt"
               href="/admin-policy"
             >
               <FaSearch size={24} color="#84909B" className="me-2" />
@@ -79,7 +79,7 @@ const policylookup = () => {
             </Nav.Link>
             <Nav.Link
               eventKey="link-5"
-              className="nav-link-txt"
+              className="nav-link-txt left-nav-active"
               href="/admin-functions"
             >
               <FaChartBar size={24} color="#84909B" className="me-2" />
@@ -99,7 +99,7 @@ const policylookup = () => {
           <Nav defaultActiveKey="/home" as="ul">
             <Nav.Item as="li" className="me-auto">
               <Nav.Link href="/home" className="nav-hdr">
-                Policy Lookup
+                Admin Fucntions
               </Nav.Link>
             </Nav.Item>
             <Nav.Item as="li">
@@ -124,70 +124,10 @@ const policylookup = () => {
               </Nav.Link>
             </Nav.Item>
           </Nav>
-          <Form>
-            <Row className="align-items-center">
-              <Col sm={10} className="my-5">
-                <Form.Control id="inlineFormInputName" placeholder="Search" />
-              </Col>
-              <Col xs="auto" className="my-1">
-                <Button
-                  type="submit"
-                  className="export-btn d-flex align-items-center"
-                >
-                  Export to Excel{" "}
-                  <RiFileExcel2Line
-                    size={20}
-                    className="ms-2"
-                    color="#008000"
-                  />
-                </Button>
-              </Col>
-            </Row>
-            <Row>
-              <Col>
-                <Table bordered hover>
-                  <thead className="pp-head">
-                    <tr>
-                      <th>Distributor</th>
-                      <th>Dealership</th>
-                      <th>Contact</th>
-                      <th>Date Solid</th>
-                      <th>Status</th>
-                      <th>Vehicle</th>
-                      <th>Vin</th>
-                      <th>RO/Invoice #</th>
-                      <th>Aul Recv...</th>
-                      <th>Customer</th>
-                      <th>Battery</th>
-                      <th>Brakes</th>
-                      <th>Brakes...</th>
-                    </tr>
-                  </thead>
-                  <tbody className="pp-body">
-                    <tr>
-                      <td>Autonation</td>
-                      <td>MINI of Las Vegas</td>
-                      <td>AN065880W</td>
-                      <td>07/27/2021</td>
-                      <td>Solid</td>
-                      <td>2015 MINI COOPHRDTP</td>
-                      <td>WMWXP7C59F2A40407</td>
-                      <td>185743</td>
-                      <td>01/21/1990</td>
-                      <td>RACHALLE MARIE HOLT</td>
-                      <td>0</td>
-                      <td>5</td>
-                      <td>0</td>
-                    </tr>
-                  </tbody>
-                </Table>
-              </Col>
-            </Row>
-          </Form>
         </Col>
       </Row>
     </Container>
   );
 };
 
-export default policylookup;
+export default adminfunctions;
