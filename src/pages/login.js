@@ -3,7 +3,7 @@ import { Container, Row, Col, Button } from "react-bootstrap";
 
 import "./home.css";
 
-const home = () => {
+const login = () => {
   return (
     <Container fluid className="hero-bg">
       <Row>
@@ -28,4 +28,4 @@ const home = () => {
   );
 };
 
-export default home;
+export default login;
