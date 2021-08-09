@@ -17,11 +17,9 @@ import {
   Image,
   Nav,
   Form,
-  Table,
   Button,
-  Pagination,
 } from "react-bootstrap";
-import { RiFileExcel2Line } from "react-icons/ri";
+//import { RiFileExcel2Line } from "react-icons/ri";
 
 import Logo from "../../images/pp-logo.png";
 

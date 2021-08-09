@@ -1,6 +1,6 @@
 import React from "react";
 //import { FaPhoneAlt, FaUserAlt } from "react-icons/fa";
-import { Container, Row, Col, Form, Button } from "react-bootstrap";
+import { Container, Row, Col, Form } from "react-bootstrap";
 
 import Nav from "../components/nav";
 import Footer from "../components/footer";

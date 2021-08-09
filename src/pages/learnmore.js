@@ -1,6 +1,6 @@
 import React from "react";
 import { FaRegFilePdf } from "react-icons/fa";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 
 import Nav from "../components/nav";
 import Footer from "../components/footer";

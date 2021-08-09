@@ -19,7 +19,6 @@ import {
   Form,
   Table,
   Button,
-  Pagination,
 } from "react-bootstrap";
 import { RiFileExcel2Line } from "react-icons/ri";
 
