@@ -14,10 +14,8 @@ const home = () => {
         <Row>
           <Col className="">
             <div className="hero-text-div">
-              <h1 className="my-3 hero-header">
-                Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum
-              </h1>
-              <p>
+              <h1 className="my-4 hero-header">We've got you covered</h1>
+              <p className="my-5">
                 Protecting vehicle owners for the road ahead, PartProtection
                 presents a lifetime limited warranty that helps policy holders
                 avoid unexpected, costly repairs on their new or pre-owned

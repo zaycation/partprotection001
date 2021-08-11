@@ -15,7 +15,7 @@ const contact = () => {
         <Row>
           <Col className="d-flex align-items-center justify-content-center">
             <div className="login-box">
-              <h2 className="login-header my-5">We Want to Hear From You!</h2>
+              <h2 className="login-header my-5 mx-5">We Want to Hear From You!</h2>
               <Form className="mx-5">
                 <Form.Group className="mb-3" controlId="formBasicFullName">
                   <Form.Control type="name" placeholder="Full Name" />

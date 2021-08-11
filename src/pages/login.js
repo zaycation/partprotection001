@@ -20,7 +20,7 @@ const login = () => {
               <Form className="mx-5">
                 <Form.Group className="mb-3" controlId="formBasicUsername">
                   <Form.Label>Username</Form.Label>
-                  <Form.Control type="username" placeholder="Username" />
+                  <Form.Control type="username" placeholder="Username" className="form-control" />
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="formBasicPassword">
                   <Form.Label>Password</Form.Label>

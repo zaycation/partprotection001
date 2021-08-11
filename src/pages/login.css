@@ -82,3 +82,9 @@
   /* #EDF2F6 */
   background: #edf2f6;
 }
+
+.form-control {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: blue;
+}
