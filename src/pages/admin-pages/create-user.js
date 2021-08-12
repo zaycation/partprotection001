@@ -10,15 +10,7 @@ import {
   FaUserAlt,
   FaAngleDown,
 } from "react-icons/fa";
-import {
-  Container,
-  Row,
-  Col,
-  Image,
-  Nav,
-  Form,
-  Button,
-} from "react-bootstrap";
+import { Container, Row, Col, Image, Nav, Form, Button } from "react-bootstrap";
 //import { RiFileExcel2Line } from "react-icons/ri";
 
 import Logo from "../../images/pp-logo.png";
@@ -169,15 +161,21 @@ const createuser = () => {
                 placeholder="tayler@genuinelifetime.com"
               />
             </Form.Group>
-            <Button
-              variant="outline-secondary"
-              className="ms-5 me-3 user-mgmt-btn"
-            >
-              Cancel
-            </Button>
-            <Button variant="secondary" type="submit" className="user-mgmt-btn">
-              Update
-            </Button>
+            <div className="d-flex align-items-center justify-content-center">
+              <Button
+                variant="outline-secondary"
+                className="ms-3 me-3 user-mgmt-btn"
+              >
+                Cancel
+              </Button>
+              <Button
+                variant="secondary"
+                type="submit"
+                className="user-mgmt-btn"
+              >
+                Update
+              </Button>
+            </div>
           </Form>
         </Col>
       </Row>

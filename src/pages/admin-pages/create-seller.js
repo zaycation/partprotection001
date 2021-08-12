@@ -211,15 +211,21 @@ const createseller = () => {
                 <Form.Control placeholder="Accounting Phone Number" />
               </Col>
             </Row>
-            <Button
-              variant="outline-secondary"
-              className="ms-5 me-3 user-mgmt-btn"
-            >
-              Cancel
-            </Button>
-            <Button variant="secondary" type="submit" className="user-mgmt-btn">
-              Update
-            </Button>
+            <div className="d-flex align-items-center justify-content-center">
+              <Button
+                variant="outline-secondary"
+                className="ms-3 me-3 user-mgmt-btn"
+              >
+                Cancel
+              </Button>
+              <Button
+                variant="secondary"
+                type="submit"
+                className="user-mgmt-btn"
+              >
+                Update
+              </Button>
+            </div>
           </Form>
         </Col>
       </Row>
