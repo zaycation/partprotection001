@@ -15,8 +15,14 @@ const PolicyNav = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="w-100 d-flex justify-content-end">
-            <Nav.Link href="/policy-lookup" className="nav-txt me-4"
-              style={{ borderBottom: "3px solid #1665A2" }}>
+            <Nav.Link
+              href="/policy-lookup"
+              className="nav-txt me-4"
+              style={{
+                marginBottom: "-10px",
+                borderBottom: "3px solid #1665A2",
+              }}
+            >
               Policy Lookup
             </Nav.Link>
             <Nav.Link href="/contact" className="nav-txt me-4">

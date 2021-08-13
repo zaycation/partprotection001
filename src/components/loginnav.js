@@ -23,8 +23,12 @@ const LoginNav = () => {
             </Nav.Link>
             <Nav.Link
               href="/login"
-              className="d-flex align-items-center justify-contenr-center nav-txt me-4"
-              style={{ borderBottom: "3px solid #1665A2" }}
+              className="d-flex flex-row align-items-center nav-txt me-4"
+              style={{
+                marginBottom: "-10px",
+                paddingBottom: "15px",
+                borderBottom: "3px solid #1665A2",
+              }}
             >
               <FaUserAlt size={18} className="me-2 nav-icons" color="#1665a2" />
               Log In

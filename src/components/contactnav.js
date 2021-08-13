@@ -18,8 +18,14 @@ const ContactNav = () => {
             <Nav.Link href="/policy-lookup" className="nav-txt me-4">
               Policy Lookup
             </Nav.Link>
-            <Nav.Link href="/contact" className="nav-txt me-4"
-              style={{ borderBottom: "3px solid #1665A2" }}>
+            <Nav.Link
+              href="/contact"
+              className="nav-txt me-4"
+              style={{
+                marginBottom: "-10px",
+                borderBottom: "3px solid #1665A2",
+              }}
+            >
               Contact Us
             </Nav.Link>
             <Nav.Link
