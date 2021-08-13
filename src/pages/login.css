@@ -84,7 +84,13 @@
 }
 
 .form-control {
-  outline: 0;
-  border-width: 0 0 2px;
-  border-color: blue;
+  outline: 0 !important;
+  border-width: 0 0 2px !important;
+  border-color: blue !important;
+}
+
+.border-styling {
+  outline: 0 !important;
+  border-width: 0 0 2px !important;
+  border-color: blue !important;
 }

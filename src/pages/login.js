@@ -31,7 +31,10 @@ const login = () => {
                     Username
                   </Form.Label>
                   <InputGroup className="mb-2">
-                    <InputGroup.Text style={{ background: "white" }}>
+                    <InputGroup.Text
+                      style={{ background: "white" }}
+                      className="border-styling"
+                    >
                       <FaUserAlt color="#a9a9a9" />
                     </InputGroup.Text>
                     <FormControl
@@ -45,7 +48,10 @@ const login = () => {
                     Password
                   </Form.Label>
                   <InputGroup className="mb-2">
-                    <InputGroup.Text style={{ background: "white" }}>
+                    <InputGroup.Text
+                      style={{ background: "white" }}
+                      className="border-styling"
+                    >
                       <FaLock color="#a9a9a9" />
                     </InputGroup.Text>
                     <FormControl
