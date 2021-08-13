@@ -1,8 +1,16 @@
 import React from "react";
 //import { FaPhoneAlt, FaUserAlt } from "react-icons/fa";
-import { Container, Row, Col, Form } from "react-bootstrap";
+import {
+  Container,
+  Row,
+  Col,
+  Form,
+  InputGroup,
+  FormControl,
+} from "react-bootstrap";
+import { FaLock, FaUserAlt } from "react-icons/fa";
 
-import Nav from "../components/nav";
+import Nav from "../components/loginnav";
 import Footer from "../components/footer";
 
 import "./login.css";
@@ -19,12 +27,32 @@ const login = () => {
 
               <Form className="mx-5">
                 <Form.Group className="mb-3" controlId="formBasicUsername">
-                  <Form.Label>Username</Form.Label>
-                  <Form.Control type="username" placeholder="Username" className="form-control" />
+                  <Form.Label htmlFor="inlineFormInputGroup" visuallyHidden>
+                    Username
+                  </Form.Label>
+                  <InputGroup className="mb-2">
+                    <InputGroup.Text style={{ background: "white" }}>
+                      <FaUserAlt color="#a9a9a9" />
+                    </InputGroup.Text>
+                    <FormControl
+                      id="inlineFormInputGroup"
+                      placeholder="Username"
+                    />
+                  </InputGroup>
                 </Form.Group>
-                <Form.Group className="mb-3" controlId="formBasicPassword">
-                  <Form.Label>Password</Form.Label>
-                  <Form.Control type="password" placeholder="Password" />
+                <Form.Group className="mb-3" controlId="formBasicUsername">
+                  <Form.Label htmlFor="inlineFormInputGroup" visuallyHidden>
+                    Password
+                  </Form.Label>
+                  <InputGroup className="mb-2">
+                    <InputGroup.Text style={{ background: "white" }}>
+                      <FaLock color="#a9a9a9" />
+                    </InputGroup.Text>
+                    <FormControl
+                      id="inlineFormInputGroup"
+                      placeholder="Password"
+                    />
+                  </InputGroup>
                 </Form.Group>
                 <button type="button" className="pp-btn">
                   Log in

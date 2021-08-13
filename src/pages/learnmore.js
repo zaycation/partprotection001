@@ -2,7 +2,7 @@ import React from "react";
 import { FaRegFilePdf } from "react-icons/fa";
 import { Container, Row, Col } from "react-bootstrap";
 
-import Nav from "../components/nav";
+import Nav from "../components/loginnav";
 import Footer from "../components/footer";
 
 import "./login.css";
